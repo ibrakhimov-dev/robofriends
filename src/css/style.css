@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background-image: linear-gradient(
+        180deg,
+        rgb(77, 28, 240),
+        rgb(168, 27, 234)
+    );
+}
